@@ -1,7 +1,7 @@
 {
-  "name": "new-bootstrap4-project",
+  "name": "euangreenwood-website",
   "version": "1.0.0",
-  "description": "Bootstrap 4 project with gulp and express",
+  "description": "landing page for euangreenwood.com",
   "main": "server.js",
   "author": "Euan Greenwood",
   "license": "MIT",
