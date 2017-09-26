@@ -6,3 +6,4 @@ bower_components
 .env
 .sass-lint.yml
 .sass-lint-bk.yml
+jsconfig.json
