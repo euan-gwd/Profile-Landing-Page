@@ -1,20 +1,27 @@
-body,
 html {
-  height: 100vh;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
 }
 
-.cover {
-  display: -ms-flexbox;
-  display: flex;
-  height: 100%;
+body {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
   color: #fff;
   text-align: center;
   background: #222 url("../images/header.jpg") center center no-repeat;
   background-size: cover;
-  -ms-flex-align: center;
+}
+
+.container {
+  grid-row: 2;
+  justify-content: center;
   align-items: center;
 }
 
-.cover-caption {
-  width: 100%;
+.logo {
+  max-width: 100%;
+}
+
+.actions {
 }
