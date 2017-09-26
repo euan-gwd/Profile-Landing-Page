@@ -2,13 +2,14 @@
   "name": "euangreenwood-website",
   "version": "2.0.0",
   "description": "landing page for euangreenwood.com",
-  "main": "index.html",
+  "main": "dev-server.js",
   "author": "Euan Greenwood",
   "license": "MIT",
   "scripts": {
-    "start": "http-server -a localhost -p 3000 -o"
+    "start": "node dev-server.js"
   },
   "devDependencies": {
-    "http-server": "^0.10.0"
+    "prettier": "^1.7.0",
+    "browser-sync": "^2.18.13"
   }
 }
