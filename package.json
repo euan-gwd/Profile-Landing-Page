@@ -1,24 +1,17 @@
 {
   "name": "euangreenwood-website",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "landing page for euangreenwood.com",
-  "main": "server.js",
+  "main": "dev-server.js",
   "author": "Euan Greenwood",
   "license": "MIT",
-  "sasslintConfig": ".sass-lint.yml",
-  "devDependencies": {
-    "browser-sync": "^2.12.8",
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-nodemon": "^2.0.6",
-    "gulp-plumber": "^1.1.0",
-    "gulp-sass": "^2.3.1"
-  },
-  "dependencies": {
-    "express": "^4.13.4",
-    "path": "^0.12.7"
-  },
   "scripts": {
-    "start": "node server.js"
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-sass": "^3.1.0"
   }
 }
