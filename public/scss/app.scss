@@ -35,7 +35,7 @@ body {
     color: white;
   }
 
-  ul {
+  .links {
     align-self: start;
     grid-column: 2;
     grid-row: 3;
@@ -47,12 +47,12 @@ body {
     grid-gap: 0 2rem;
   }
 
-  ul li {
+  .links li {
     list-style: none;
     margin: 0 40px;
   }
 
-  ul li:nth-child(1) {
+  .links li:nth-child(1) {
     a {
       position: relative;
       display: block;
@@ -107,19 +107,19 @@ body {
     }
   }
 
-  ul li:hover:nth-child(1) a {
+  .links li:hover:nth-child(1) a {
     background: #171516;
   }
 
-  ul li:hover:nth-child(1) a:before {
+  .links li:hover:nth-child(1) a:before {
     background: #232122;
   }
 
-  ul li:hover:nth-child(1) a:after {
+  .links li:hover:nth-child(1) a:after {
     background: #3f444b;
   }
 
-  ul li:nth-child(2) {
+  .links li:nth-child(2) {
     a {
       position: relative;
       display: block;
@@ -174,19 +174,19 @@ body {
     }
   }
 
-  ul li:hover:nth-child(2) a {
+  .links li:hover:nth-child(2) a {
     background: #007bb6;
   }
 
-  ul li:hover:nth-child(2) a:before {
+  .links li:hover:nth-child(2) a:before {
     background: #0376ad;
   }
 
-  ul li:hover:nth-child(2) a:after {
+  .links li:hover:nth-child(2) a:after {
     background: #0383bf;
   }
 
-  ul li:nth-child(3) {
+  .links li:nth-child(3) {
     a {
       position: relative;
       display: block;
@@ -241,15 +241,15 @@ body {
     }
   }
 
-  ul li:hover:nth-child(3) a {
+  .links li:hover:nth-child(3) a {
     background: #dc493c;
   }
 
-  ul li:hover:nth-child(3) a:before {
+  .links li:hover:nth-child(3) a:before {
     background: #bb3e33;
   }
 
-  ul li:hover:nth-child(3) a:after {
+  .links li:hover:nth-child(3) a:after {
     background: #d4463b;
   }
 }
