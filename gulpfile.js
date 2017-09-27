@@ -30,7 +30,8 @@ gulp.task("browserSync", function() {
     },
     ui: false,
     port: 3000,
-    browser: "firefox"
+    browser: "firefox",
+    ghostMode: false
   });
 });
 
