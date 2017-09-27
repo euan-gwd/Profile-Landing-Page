@@ -10,11 +10,11 @@ gulp.task("styles", function() {
     .src("public/scss/**/*.scss")
     .pipe(
       sass({
-        outputStyle: "compressed"
+        outputStyle: "expanded"
       }).on("error", sass.logError)
     )
-    .pipe(prefix("last 2 versions", "> 1%", "ie 8", "Android 2", "Firefox ESR")) //adds vendor prefixes if needed
-    .pipe(gulp.dest("public/css")) // outputs CSS to public/css
+    .pipe(prefix("last 2 versions"))
+    .pipe(gulp.dest("public/css"))
     .pipe(
       reload({
         stream: true
