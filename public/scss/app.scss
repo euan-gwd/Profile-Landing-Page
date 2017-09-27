@@ -27,8 +27,8 @@ body {
 .lead {
   grid-column: 2;
   grid-row: 2;
-  font-size: normal;
   color: white;
+  font-family: "Titillium Web", sans-serif;
 }
 
 .links {
@@ -253,7 +253,6 @@ body {
   .lead {
     grid-column: 2;
     grid-row: 2;
-    font-size: normal;
     color: white;
   }
 
